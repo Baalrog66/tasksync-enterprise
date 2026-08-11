@@ -1,16 +1,8 @@
-# Compiled class file
+# ==========================================
+# JAVA & SPRING BOOT
+# ==========================================
+# Archivos compilados y empaquetados
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +11,53 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Carpeta de salida de compilación (Maven / Gradle)
+target/
+build/
+bin/
+out/
+
+# Wrapper de Maven / Gradle (Opcional: deshabilita si quieres incluir el wrapper)
+.mvn/
+.gradle/
+
+# Archivos de registro y crash logs
+*.log
 hs_err_pid*
 replay_pid*
+.mtj.tmp/
+*.ctxt
+
+# ==========================================
+# IDEs & EDITORES (IntelliJ, VS Code, Eclipse)
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.zed/
+
+# ==========================================
+# NODE / REACT
+# ==========================================
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+.eslintcache
+
+# ==========================================
+# OS, DOCKER & VARIABLES DE ENTORNO
+# ==========================================
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
