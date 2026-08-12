@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: tasksync-backend
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tasksync_db
+      username: root
+      password: rootpassword
+      authentication-database: admin
